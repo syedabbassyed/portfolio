@@ -5,6 +5,7 @@ import { VerticalNavbar } from "./components/VerticalNavbar";
 import { ExperienceList } from "./components/ExperienceList";
 import './App.css';
 import { useEffect, useRef, useState } from "react";
+import { CertificationDetailList } from "./components/CertificationDetailList";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState(0);
@@ -48,6 +49,9 @@ export default function App() {
             </section>
             <section ref={(element) => (sectionRefs.current[1] = element)}>
               <ExperienceList />
+            </section>
+            <section ref={(element) => (sectionRefs.current[2] = element)}>
+              <CertificationDetailList />
             </section>
           </main>
         </div>
