@@ -5,11 +5,23 @@ export const About = () => {
                 <h2 className="text-sm font-bold uppercase tracking-widest text-white lg:sr-only">About</h2>
             </div>
             <div>
-                <p className="mb-4">I’m a frontend developer passionate about creating scalable, high-performance user interfaces that combine clean design with seamless functionality. My expertise lies in building web applications that are responsive, accessible, and optimized for speed, ensuring exceptional digital experiences for users.</p>
-                <p className="mb-4">Currently, I’m an Associate Software Engineer at <a className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300" href="https://www.ojcommerce.com/" target="_blank" rel="noreferrer noopener" aria-label="OJCommerce (opens in a new tab)">OJCommerce</a>, where I focus on developing modular and efficient web components. I specialize in enhancing user workflows and building tools that improve internal efficiency, leveraging JavaScript and modern frontend practices to deliver impactful solutions.</p>
-                <p className="mb-4">In the past, I’ve worked on diverse projects for <b className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300">e-commerce platforms</b>, <b className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300">banking applications</b>, and <b className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300">enterprise systems</b>. From optimizing onboarding flows to delivering <b className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300">scalable UI components</b> for <b className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300">high-traffic platforms</b>, I’ve consistently aimed to bridge the gap between user needs and technical solutions.</p>
-                <p>When I’m not coding, you’ll find me exploring YouTube videos about geography, finance, history, or anything science related.</p>
+                <p className="mb-4">
+                    I’m a frontend engineer passionate about creating scalable, high-performance user interfaces that combine clean design with seamless functionality. I specialize in building responsive, accessible, and fast web applications that prioritize user experience.
+                </p>
+                <p className="mb-4">
+                    Until March 2025, I worked as an Associate Software Engineer at <a className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300" href="https://www.ojcommerce.com/" target="_blank" rel="noreferrer noopener" aria-label="OJCommerce (opens in a new tab)">OJCommerce</a>, where I focused on building modular UI components, improving workflows, and optimizing performance using modern JavaScript practices.
+                </p>
+                <p className="mb-4">
+                    I’ve contributed to projects across <b className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300">e-commerce platforms</b>, <b className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300">banking applications</b>, and <b className="font-medium text-white hover:text-teal-300 focus-visible:text-teal-300">enterprise systems</b>. Whether enhancing onboarding flows or delivering scalable UI components for high-traffic platforms, I’ve always aimed to blend usability with technical excellence.
+                </p>
+                <p className="mb-4">
+                    I’m currently focused on building full-stack personal projects, refining system design skills, and preparing for interviews at high-growth product companies.
+                </p>
+                <p>
+                    When I’m not coding, you’ll find me exploring YouTube videos about geography, finance, history, or anything science related.
+                </p>
             </div>
         </section>
+
     );
 }

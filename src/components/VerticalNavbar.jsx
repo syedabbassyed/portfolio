@@ -2,7 +2,7 @@
 import { NavItem } from "./NavItem";
 
 export const VerticalNavbar = ({ activeSectionIndex, ClickHandler }) => {
-    const menu = ["About", "Experience", "Certifications"];
+    const menu = ["About", "Experience", "Projects", "Certifications"];
     
     return (
         <nav className="nav hidden lg:block" aria-label="In-page jump links">

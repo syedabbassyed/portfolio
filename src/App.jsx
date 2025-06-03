@@ -6,6 +6,7 @@ import { ExperienceList } from "./components/ExperienceList";
 import './App.css';
 import { useEffect, useRef, useState } from "react";
 import { CertificationDetailList } from "./components/CertificationDetailList";
+import { ProjectDetailList } from "./components/ProjectDetailList";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState(0);
@@ -51,6 +52,9 @@ export default function App() {
               <ExperienceList />
             </section>
             <section ref={(element) => (sectionRefs.current[2] = element)}>
+              <ProjectDetailList />
+            </section>
+            <section ref={(element) => (sectionRefs.current[3] = element)}>
               <CertificationDetailList />
             </section>
           </main>
